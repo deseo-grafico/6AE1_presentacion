@@ -11,12 +11,12 @@ $base: 8px;
 @font-face {
     font-family: 'Gotham';
     font-weight: normal;
-    src: url(assets/fonts/Gotham/Gotham-Book.otf) format("opentype");
+    src: local('Gotham Book'), url(assets/fonts/Gotham/Gotham-Book.otf) format("opentype");
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: bold;
-    src: url(assets/fonts/Gotham/Gotham-Bold.otf) format("opentype");
+    src: local('Gotham Bold'), url(assets/fonts/Gotham/Gotham-Bold.otf) format("opentype");
 }
 
 
